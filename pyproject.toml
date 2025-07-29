@@ -1,0 +1,12 @@
+[project]
+name = "mcps"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain-groq>=0.3.6",
+    "langchain-openai",
+    "mcp-use>=1.2.6",
+    "python-dotenv",
+]
